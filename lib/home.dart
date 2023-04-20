@@ -12,6 +12,7 @@ class _HivehomepageState extends State<Hivehomepage> {
   List mylist=[];
   List gotdata=[];
   var v;
+
 final mybox = Hive.box('mylist');
   @override
   void initState() {
